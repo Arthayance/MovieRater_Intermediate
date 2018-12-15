@@ -16,13 +16,25 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity">
+        <activity android:name=".Main2Activity"
+        android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
                 android:name=".Main3Activity"
-                android:label="@string/title_activity_main3">
+                android:label="@string/title_activity_main3"
+                android:parentActivityName=".Main2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
         </activity>
-        <activity android:name=".Main4Activity">
+        <activity android:name=".Main4Activity"
+        android:parentActivityName=".Main3Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main3Activity"/>
         </activity>
     </application>
 

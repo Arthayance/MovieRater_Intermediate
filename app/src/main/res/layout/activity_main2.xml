@@ -62,7 +62,6 @@
             android:inputType="date"/>
     <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:id="@+id/checkbox_audience"
-              android:onClick="onCheck"
               android:text="Not suitable for all audience"/>
     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:orientation="horizontal">

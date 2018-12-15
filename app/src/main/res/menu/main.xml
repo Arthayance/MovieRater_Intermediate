@@ -6,7 +6,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
         android:title="save"
         app:showAsAction="always" />
     <item
-        android:id="@+id/reset"
+        android:id="@+id/resetTextBox"
         android:title="Reset"
         app:showAsAction="never" />
 

@@ -5,7 +5,7 @@ public class MovieEntity {
     var movie_desc: String = ""
     var movie_lang: String = ""
     var movie_rdate: String = ""
-    var movie_audience: Boolean = true
+    var movie_audience: String = ""
     var reasonViolence: Boolean = false
     var reasonLangauge: Boolean = false
     var Rating: Float = 0.00F
